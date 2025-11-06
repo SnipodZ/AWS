@@ -24,7 +24,6 @@ Una VPC muy básica :
 <img width="1070" height="602" alt="Pasted image 20251006202111" src="https://github.com/user-attachments/assets/66c5836a-85b1-4082-9155-13026889c872" />
 
 
-En **Public2** y **Private1** arreglo zona de disponibilidad
 
 
 ## IGW
