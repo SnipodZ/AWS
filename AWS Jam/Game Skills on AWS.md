@@ -26,7 +26,8 @@ Es solo crear la tabla con los valores solicitados
 
 Para eso la información es la siguiente: 
 
-![[Pasted image 20250805215525.png | 2000]]
+<img width="1209" height="806" alt="Pasted image 20250805215525" src="https://github.com/user-attachments/assets/e3d96c73-6dac-4a21-99ef-269eef755ec0" />
+
 
 
 ## AWS Storage Royale: Enter The Data Thunderdome
@@ -53,12 +54,15 @@ Para eso la información es la siguiente:
 
 ##### Solución
 Para solucionarlo hay que primero activar el versioning, que está en propiedades:
-![[Pasted image 20250823213017.png |1400 x ]]
+<img width="1633" height="286" alt="Pasted image 20250823213017" src="https://github.com/user-attachments/assets/105c963f-a516-4bea-98e4-5efbc102368e" />
+
 
 Y luego para la parte que pide optimizar costos sin comprometer no se que, lo que se necesita hacer es irse a **Administración**, y crear una regla de ciclo de vida con la siguiente configuración:
 
-![[Pasted image 20250823213340.png]]![[Pasted image 20250823213347.png]]
-![[Pasted image 20250823213357.png]]
+<img width="977" height="369" alt="Pasted image 20250823213340" src="https://github.com/user-attachments/assets/56bdb627-7d9d-48bb-a889-0cde94a3359a" />
+<img width="1559" height="522" alt="Pasted image 20250823213347" src="https://github.com/user-attachments/assets/2f30c8c7-8b53-43a5-99f8-f31fe9416527" />
+
+<img width="1292" height="222" alt="Pasted image 20250823213357" src="https://github.com/user-attachments/assets/8b945830-cc2b-4e46-8e68-3206d73aad2e" />
 
 
 ### Task 2
@@ -83,7 +87,8 @@ Instancia de base de datos MySQL de RDS en us-east-1a
 
 **Solución**
 Muy simple, solo hay que habilitar disponibilidad Multi AZ en la opción modificar base de datos:
-![[Pasted image 20250823215841.png]]
+<img width="570" height="185" alt="Pasted image 20250823215841" src="https://github.com/user-attachments/assets/5c67f7a6-6099-4cff-9882-0db81a0e0583" />
+
 
 ### Task 3
 Solo hay que agregar un GSI, se va a indices, crear, y si pide por ejemplo lo siguiente:
