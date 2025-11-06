@@ -1,7 +1,7 @@
 ## Task 1: Crear VPC
 Una VPC muy básica :
 
-![[Pasted image 20251006194340.png]]
+![](Pasted image 20251006194340.png)
 
 ## Task 2: Crear subredes
 ### Subredes públicas
