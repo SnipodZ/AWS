@@ -138,6 +138,9 @@ Tras ello busco las subredes que tiene, identifico la que pertenece a VPC 1, y m
 
 
 
+
+![[Pasted image 20250926234716.png]]
+
 ![[Pasted image 20250926234729.png]]
 
 ![[Pasted image 20250926234743.png]]
