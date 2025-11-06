@@ -79,18 +79,22 @@ Use AnyCompany's `JamMonitorStation` to capture the beacon sent by the comprom
 ```
 
 Para resolverlo se necesitan varios pasos. Primero se realiza la conexión con el **Systems Manager ->Session Manager**
-![[Pasted image 20250906211809.png]]
+<img width="860" height="533" alt="Pasted image 20250906211809" src="https://github.com/user-attachments/assets/159fb607-d3bf-4438-aefc-3bd368000156" />
+
 
 Una vez completado hay que configurar el Mirroring de paquetes. Esa opción está en VPC. Comenzamos creando el **Traffic Mirror targets.** Se tiene que coger el **eni** ***del equipo al que queremos que se envíe la copia*** Por ejemplo, el JamMonitorManager, cuyo eni es:
 > **eni-0544fa63284b2c134**
 
-![[Pasted image 20250906212030.png]]
+<img width="1225" height="650" alt="Pasted image 20250906212030" src="https://github.com/user-attachments/assets/4336a719-84c5-43e1-aede-2a380e2ff588" />
+
 
 Luego se crea el Mirror Filter: 
-![[Pasted image 20250906212135.png]]
+<img width="1165" height="951" alt="Pasted image 20250906212135" src="https://github.com/user-attachments/assets/e2d8d280-114e-4ac7-b9c0-bf0bf7e75b9d" />
+
 
 Por último se crea el Mirror Session:
-![[Pasted image 20250906212316.png]]
+<img width="1044" height="779" alt="Pasted image 20250906212316" src="https://github.com/user-attachments/assets/a2a2c691-12a3-442e-a37a-0db7b9fa36c3" />
+
 
 **PARA PODER USAR MIRROR HAY QUE MODIFICAR EL SECURITY GROUP DE LA MV AL QUE SE ENVIARÁN LOS PAQUETES COPIADOS**
 
@@ -119,14 +123,16 @@ Aunque solo permita desde Cloudfront, usuarios maliciosos pueden seguir accedien
 
 Para agregar encabezado personalizado, ir a **Cloudfront->Distribuciones->Elegir distribucion->Orígenes->Editar origen**
 
-![[Pasted image 20250908222324.png]]
+<img width="778" height="162" alt="Pasted image 20250908222324" src="https://github.com/user-attachments/assets/d992846a-dcf1-498a-948c-5fb4800751c4" />
 
 ### Task 4
 
 Falta configurar el encabezado secreto en el balanceador de carga también para asegurar a nivel de aplicación. Desde el **LB**, en *agentes de escucha y reglas*, se modifica el que permite la conexión agregando el valor del encabezado secreto, y el por defecto se pone en 403, access denied.
-![[Pasted image 20250908222643.png]]
+<img width="875" height="493" alt="Pasted image 20250908222643" src="https://github.com/user-attachments/assets/a197e719-21dc-43c2-b8ab-9c74526eaa12" />
 
-![[Pasted image 20250908222607.png]]
+
+<img width="577" height="424" alt="Pasted image 20250908222607" src="https://github.com/user-attachments/assets/1aac7db9-dedc-4fe7-a801-08dfc4aca25c" />
+
 
 
 ### Task 5
