@@ -23,10 +23,12 @@ Visit the Jam challenge bucket in the S3 console and try to resolve the overly p
 ```
 
 En la pantalla del analyzer:
-![[Pasted image 20250915220014.png]]
+<img width="911" height="106" alt="Pasted image 20250915220014" src="https://github.com/user-attachments/assets/63b90684-3297-48ed-8cc1-02d073cd4f39" />
+
 
 Por tanto reviso permisos del bucket, y resulta que:
-![[Pasted image 20250915220047.png]]
+<img width="853" height="268" alt="Pasted image 20250915220047" src="https://github.com/user-attachments/assets/c8a5bb0e-8e89-4af5-82d9-74c2f94443b5" />
+
 
 Se permite listar el bucket. Lo **borro** y se resuelve.
 
@@ -40,9 +42,11 @@ Se permite listar el bucket. Lo **borro** y se resuelve.
 
 Me recuerdo a mí mismo de leer todo y solo empezar despues de haber leido 2 o 3 veces. Tan solo hay que hacer **lo** **siguiente**:
 
-![[Pasted image 20250915221205.png | 5000x269]]
+<img width="1925" height="416" alt="Pasted image 20250915221205" src="https://github.com/user-attachments/assets/5d55aba8-8614-4229-8a72-5c490965bc5c" />
 
-![[Pasted image 20250915221313.png]]
+
+<img width="276" height="148" alt="Pasted image 20250915221313" src="https://github.com/user-attachments/assets/99f75fe7-6016-435f-832c-7a126fe9282e" />
+
 
 ### Task 2
 
@@ -57,11 +61,13 @@ En esta hay que hacer varias cosas. Sigue fallando el acceso, así que hay que r
 
 En los **orígenes** vemos que se usa un ***OIA legacy***, y por **defecto** no teníamos configurado ningún policy para este usuario. Por tanto, toca agregar una **política**. 
 
-![[Pasted image 20250915223723.png]]
+<img width="801" height="261" alt="Pasted image 20250915223723" src="https://github.com/user-attachments/assets/94f85744-3986-4818-9e29-8acd16f65b0a" />
+
 
 Se necesita ID de usuario **OIA**:
 
-![[Pasted image 20250915223856.png]]
+<img width="936" height="293" alt="Pasted image 20250915223856" src="https://github.com/user-attachments/assets/1edcd3bb-2ced-44a6-a1f3-9bbcf75daba8" />
+
 
 Agregamos la siguiente **política**:
 
