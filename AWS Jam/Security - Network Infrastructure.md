@@ -139,11 +139,14 @@ Tras ello busco las subredes que tiene, identifico la que pertenece a VPC 1, y m
 
 
 
-![[Pasted image 20250926234716.png]]
+<img width="656" height="199" alt="Pasted image 20250926234716" src="https://github.com/user-attachments/assets/9b712e1d-d7bc-467a-aa41-0cd6fdc1c692" />
 
-![[Pasted image 20250926234729.png]]
 
-![[Pasted image 20250926234743.png]]
+<img width="660" height="138" alt="Pasted image 20250926234729" src="https://github.com/user-attachments/assets/5d891cb6-264c-4e49-851c-6cf0e70622f9" />
+
+
+<img width="732" height="275" alt="Pasted image 20250926234743" src="https://github.com/user-attachments/assets/1f242b1b-f453-4cdd-a353-60562a3541c8" />
+
 
 
 ### Task 4
@@ -165,7 +168,8 @@ Open **vpc1-tgw-rt** and add a blackhole route to VPC-2, i.e 10.0.1.0/24
 5. On the **Create static route** page, enter the CIDR block as **10.0.1.0/24**, and then choose **Blackhole**.
 6. Choose **Create static route**.
 7. 
-![[Pasted image 20250927001020.png]]
+<img width="859" height="287" alt="Pasted image 20250927001020" src="https://github.com/user-attachments/assets/867af2af-d01d-4bee-a2d5-49cedc768075" />
+
 
 
 **To prevent VPC-2 from reaching VPC-1**  
@@ -178,7 +182,8 @@ Open **vpc2-tgw-rt** and add a blackhole route to VPC-1, i.e 10.0.0.0/24
 5. On the **Create static route** page, enter the CIDR block as **10.0.0.0/24**, and then choose **Blackhole**.
 6. Choose **Create static route**.
 
-![[Pasted image 20250927001041.png]]
+<img width="851" height="307" alt="Pasted image 20250927001041" src="https://github.com/user-attachments/assets/56873687-e1c0-4825-9748-7d8715f21533" />
+
 
 Validate by pinging. It may take a moment for the changes to reflect
 
